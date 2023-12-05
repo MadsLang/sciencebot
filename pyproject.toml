@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sciencebot"
+version = "0.1.0"
+description = ""
+authors = ["MLS <mls@damvad.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+langchain = "^0.0.270"
+streamlit = "^1.25.0"
+sentence-transformers = "^2.2.2"
+openai = "^0.27.9"
+tiktoken = "^0.4.0"
+art = "^6.0"
+faiss-cpu = "^1.7.4"
+fastapi = "^0.104.1"
+pydantic = "^2.5.0"
+uvicorn = "^0.24.0.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
