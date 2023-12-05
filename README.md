@@ -10,4 +10,4 @@ I downloaded a bunch of research papers (only abstract and metadata). From the a
 
 Currently, the frontend and backend have been seperated. The frontend is currently a simple Streamlit app, but I am working on making this into a nicer JS/React. 
 
-Backend is Python - using FastAPI using Langchain. The LLM used is API calls to OpenAI (gpt-3.5-turbo), but I am experimenting with using Ollama to run Llama2 or maybe Mistral models locally. 
+Backend is Python - using FastAPI with Langchain. The LLM used is API calls to OpenAI (gpt-3.5-turbo), but I am experimenting with using Ollama to run Llama2 or maybe Mistral models locally. 
